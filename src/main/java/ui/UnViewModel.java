@@ -1,6 +1,6 @@
 package ui;
 
-import org.uqbar.commons.utils.Observable;
+import org.uqbar.commons.model.annotations.Observable;
 
 import domain.UnModel;
 
