@@ -5,29 +5,18 @@
    <groupId>dds-templates</groupId>
    <artifactId>arena-proof-of-concept-template</artifactId>
 
-   <parent>
-      <groupId>org.uqbar-project</groupId>
-      <artifactId>uqbar-parent-project</artifactId>
-      <version>1.7</version>
-   </parent>
-
   <dependencies>
-    <dependency>
-      <groupId>org.uqbar-project</groupId>
-      <artifactId>arena-jface</artifactId>
-      <version>3.3-SNAPSHOT</version>
-      <exclusions>
-        <exclusion>
-          <artifactId>javassist</artifactId>
-          <groupId>javassist</groupId>
-        </exclusion>
-      </exclusions>
-    </dependency>
-    <dependency>
-      <groupId>org.javassist</groupId>
-      <artifactId>javassist</artifactId>
-      <version>3.18.1-GA</version>
-    </dependency>
+		<dependency>
+			<groupId>org.uqbar-project</groupId>
+			<artifactId>arena-jface</artifactId>
+			<version>3.6.3</version>
+		</dependency>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.12</version>
+			<scope>test</scope>
+		</dependency>
   </dependencies>
 
   <build>
@@ -45,21 +34,4 @@
   </build>
   
   
-  
-    <!-- Los repositorios son sólo necesarios si no fueron agregados ya al 
-    settings.xml como se explica en http://uqbar-wiki.org/index.php?title=Configuraci%C3%B3n_de_Maven_para_poder_utilizar_las_herramientas_de_Uqbar -->
-  <repositories>
-    <repository>
-      <id>uqbar-wiki.org-releases</id>
-      <name>uqbar-wiki.org-releases</name>
-      <url>http://uqbar-wiki.org/mvn/releases</url>
-    </repository>
-    <repository>
-      <snapshots />
-      <id>uqbar-wiki.org-snapshots</id>
-      <name>uqbar-wiki.org-snapshots</name>
-      <url>http://uqbar-wiki.org/mvn/snapshots</url>
-    </repository>
-  </repositories>
-
 </project>
