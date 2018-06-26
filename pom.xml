@@ -6,6 +6,20 @@
    <artifactId>arena-proof-of-concept-template</artifactId>
    <version>0.0.1-SNAPSHOT</version>
 
+  <repositories>
+    <repository>
+      <id>maven.uqbar.org-releases</id>
+      <name>maven.uqbar.org-releases</name>
+      <url>http://maven.uqbar.org/releases</url>
+    </repository>
+    <repository>
+      <snapshots />
+      <id>maven.uqbar.org-snapshots</id>
+      <name>maven.uqbar.org-snapshots</name>
+      <url>http://maven.uqbar.org/snapshots</url>
+    </repository>
+  </repositories>
+
   <dependencies>
     <dependency>
       <groupId>org.uqbar-project</groupId>
